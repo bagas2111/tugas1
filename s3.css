@@ -1,0 +1,206 @@
+/*judul*/
+.button-56 {
+    align-items: center;
+    background-color: #fee6e3;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: 'The Bold Font';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    height: 98px;
+    width: 500px;
+    justify-content: center;
+    line-height: 1004px;
+    max-width: 200%;
+    padding:  2005px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: absolute;
+    top: 4%;
+    left: 35%;
+  }
+  
+  .button-56:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 98px;
+    width: 500px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .button-56:hover:after {
+    transform: translate(0, 0);
+  }
+  
+  .button-56:active {
+    background-color: #ffdeda;
+    outline: 0;
+  }
+  
+  .button-56:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-56 {
+      padding: 0 40px;
+    }
+  }
+
+/*penjelasan*/
+.penjelasan {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  padding: 50px;
+  top: 30%;
+  background-color:#EBFFFF;
+  font-family: 'Hi Melody';
+  font-style: normal;
+  font-weight: px;
+  font-size: 34px;
+  line-height: 40px;
+}
+.penjelasan {
+  position: relative;
+  top: 170px;
+  right: -15px;
+  width: 500px;
+  height: 80px;
+}
+/*rumus*/
+.bordermus {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  position: relative;
+  top: 290px;
+  right: 35;
+  width: 700px;
+  height: 300px;
+  background-color:     #EBFFFF;
+}
+.sde {
+  position: absolute;
+width: 270px;
+height: 272px;
+}
+.sdd {
+  position: absolute;
+width: 253px;
+height: 209px;
+left: 290px;
+top: 40px;
+}
+
+.tulisan {
+  position: absolute;
+width: 235px;
+height: 55px;
+left: 198px;
+top: 400px;
+
+font-family: 'The Bold Font';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+}
+
+/*button*/
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: relative;
+  top: 450px;
+  left: 100px;
+}
+
+.button-73:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+.soalco {
+  position: absolute;
+  right: 41px;
+  top: 160px;
+  width: 500px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  font-family: 'The Bold Font';
+  font-style: normal;
+  padding: 50px;
+  background-color:#EBFFFF;
+}
+.form {
+  position: absolute;
+  width: 235px;
+  height: 55px;
+  left: 250px;
+  top: -70px;
+  font-family: 'The Bold Font';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+}
+
+
+.kalkulatoor{
+  position: absolute;
+  right: 61px;
+  top: 50px;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  font-family: 'The Bold Font';
+  font-style: normal;
+  padding: 50px;
+  top: 90%;
+  background-color:#EBFFFF;
+}
